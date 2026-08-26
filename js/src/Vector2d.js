@@ -1,10 +1,9 @@
-class Entity {
-  constructor(image, x, y, rotation, scale) {
-    this.image = image;
+"use strict";
+
+class Vector2d {
+  constructor(x, y) {
     this.x = x;
     this.y = y;
-    this.rotation = rotation;
-    this.scale = scale;
   }
 
   update(){
